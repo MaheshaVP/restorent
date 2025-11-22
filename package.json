@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://maheshaVP.github.io/restorent",
+  "homepage": "https://MaheshaVP.github.io/restorent",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
