@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { settablenumber } from "../Action/index";
 
 const Table = ({ table_number, settablenumber }) => {
-  const numbers = Array.from({ length: 16 }, (_, i) => i + 1);
+  const numbers = Array.from({ length: 15 }, (_, i) => i + 1);
 
   return (
     <div>
