@@ -16,7 +16,7 @@ const NotFound = () => {
           <h4 className="text-primary">Page Not Found 404</h4>
           <button
             className="btn btn-primary mt-3"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/restorent")}
           >
             ⬅ Back to Items
           </button>

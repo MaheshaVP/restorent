@@ -19,7 +19,7 @@ const Orders = ({ orders, clearTableBill }) => {
 
           <button
             className="btn btn-primary mt-3"
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/restorent")}
           >
             ⬅ Back to Items Page
           </button>
@@ -36,7 +36,7 @@ const Orders = ({ orders, clearTableBill }) => {
         {/* Back button */}
         <button
           className="btn btn-dark mb-3"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/restorent")}
         >
           ⬅ Back to Items Page
         </button>
