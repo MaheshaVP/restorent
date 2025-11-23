@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import Orders from './Orders'
 import NotFound from './NotFound'
@@ -8,13 +8,13 @@ import Footer from './Container/Footer'
 const App = () => {
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/restorent' element={<Home />} />
           <Route path='/orders' element={<Orders />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
 
       <Footer />
     </div>
